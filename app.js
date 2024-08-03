@@ -5,10 +5,17 @@ document.getElementById('downloadCvBtn').addEventListener('click', function() {
     link.click();
 });
 
+/*
 document.getElementById('homeBtn').addEventListener('click', function() {
     window.location.href = 'index.html';  // URL of my home page
 });
+*/
 
-document.getElementById('theme-toggle').addEventListener('click', function() {
-    document.body.classList.toggle('dark-theme');
+document.addEventListener('DOMContentLoaded', () => {
+    var typed = new Typed('#typed', {
+        strings: ["I'm into Web Development", "Currently, I'm learning Java"],
+        typeSpeed: 50,
+        backSpeed: 25,
+        loop: true
+    });
 });
