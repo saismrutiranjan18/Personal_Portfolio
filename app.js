@@ -19,3 +19,24 @@ document.addEventListener('DOMContentLoaded', () => {
         loop: true
     });
 });
+
+// scripts.js
+
+document.addEventListener('DOMContentLoaded', () => {
+    const skillCircles = document.querySelectorAll('.skill-circle');
+
+    skillCircles.forEach(circle => {
+        circle.addEventListener('click', () => {
+            // Remove the animation class if it's already present to reset the animation
+            circle.classList.remove('animate');
+            
+            // Force reflow to restart the animation
+            void circle.offsetWidth;
+
+            // Add the animation class to trigger the animation
+            circle.classList.add('animate');
+        });
+    });
+});
+
+
