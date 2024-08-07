@@ -4,12 +4,17 @@ document.getElementById('downloadCvBtn').addEventListener('click', function() {
     link.download = 'sai basic resume.pdf';  // Name the downloaded file
     link.click();
 });
-
 /*
+
 document.getElementById('homeBtn').addEventListener('click', function() {
     window.location.href = 'index.html';  // URL of my home page
 });
 */
+
+function redirectToHome() {
+    window.location.hash = '#home';
+  }
+  
 
 document.addEventListener('DOMContentLoaded', () => {
     var typed = new Typed('#typed', {
