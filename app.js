@@ -1,7 +1,7 @@
 document.getElementById('downloadCvBtn').addEventListener('click', function() {
     const link = document.createElement('a');
-    link.href = 'sai basic resume.pdf';  // Path to my CV file
-    link.download = 'sai basic resume.pdf';  // Name the downloaded file
+    link.href = 'Resume/Sai Smruti Ranjan Das.pdf';  // Path to my CV file
+    link.download = 'Resume/Sai Smruti Ranjan Das.pdf';  // Name the downloaded file
     link.click();
 });
 /*
