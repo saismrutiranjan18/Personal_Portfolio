@@ -522,9 +522,7 @@ footer {
 
 /* Large screens (Desktops, 1200px and above) */
 @media (min-width: 1200px) {
-    .hero {
-      padding: 60px;
-    }
+   
     
     .hero .detail {
       font-size: 1.5rem;
