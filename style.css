@@ -183,6 +183,7 @@ background-color: #212121;
     left:45%;
 }
 
+
 /*---------------------------------------------------------------------------------------------*/
 
 /*Horizontal line in each and every section*/
@@ -512,4 +513,172 @@ footer {
 
 .footer-social a:hover {
     transform: translateY(-5px);
+}
+
+
+/*---------------------------------------------------------------------------------------------*/
+
+/* Media Queries */
+
+/* Large screens (Desktops, 1200px and above) */
+@media (min-width: 1200px) {
+    .hero {
+      padding: 60px;
+    }
+    
+    .hero .detail {
+      font-size: 1.5rem;
+    }
+  
+    .skill-wrapper {
+      width: 20%;
+    }
+  }
+  
+  /* Medium screens (Tablets, 992px to 1199px) */
+  @media (max-width: 1199px) and (min-width: 992px) {
+    .hero {
+      padding: 50px;
+    }
+  
+    .detail h1 {
+      font-size: 2.5rem;
+    }
+  
+    .skill-wrapper {
+      width: 30%;
+    }
+  
+    .nav-links {
+      gap: 20px;
+    }
+  
+    .contact-info {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  
+  /* Small screens (Portrait tablets and large phones, 768px to 991px) */
+  @media (max-width: 991px) and (min-width: 768px) {
+    .hero {
+      padding: 40px;
+    }
+  
+    .detail h1 {
+      font-size: 2rem;
+    }
+  
+    .skill-wrapper {
+      width: 45%;
+    }
+  
+    .qualifications-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
+  
+  /* Extra small screens (Phones, less than 768px) */
+  @media (max-width: 767px) {
+    nav {
+      padding: 20px;
+    }
+  
+    .hero {
+      padding: 20px;
+    }
+  
+    .detail h1 {
+      font-size: 1.8rem;
+    }
+  
+    .detail p {
+      font-size: 0.9rem;
+    }
+  
+    .images .shape, .images .sai {
+      width: 90%;
+      margin: 0 auto;
+      display: block;
+    }
+  
+    .skills-container {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .skill-wrapper {
+      width: 80%;
+      margin: 10px auto;
+    }
+  
+    .qualifications-content {
+      flex-direction: column;
+    }
+  
+    .education, .achievements {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .contact-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-social {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-social a {
+      margin: 5px 0;
+    }
+  }
+  
+  /* Ultra small screens (Very small phones, less than 576px) */
+  @media (max-width: 575px) {
+    .hero {
+      padding: 10px;
+    }
+  
+    .detail h1 {
+      font-size: 1.5rem;
+    }
+  
+    .detail p {
+      font-size: 0.8rem;
+    }
+  
+    .contact-info .contact-method i {
+      font-size: 1.2rem;
+    }
+  
+    .contact-form input, .contact-form textarea, .contact-form button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .footer-content {
+      padding: 10px;
+      text-align: center;
+    }
+  
+    .footer-links, .footer-social {
+      flex-direction: column;
+    }
 }
