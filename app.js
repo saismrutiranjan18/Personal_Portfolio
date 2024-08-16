@@ -10,8 +10,8 @@ document.getElementById('downloadCvBtn').addEventListener('click', function() {
 document.addEventListener('DOMContentLoaded', () => {
     var typed = new Typed('#typed', {
         strings: ["I'm into Web Development", "Currently, I'm learning Java"],
-        typeSpeed: 50,
-        backSpeed: 25,
+        typeSpeed: 80,
+        backSpeed: 45,
         loop: true
     });
 });

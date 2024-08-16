@@ -35,7 +35,6 @@ section {
 
 .hero{
   position: relative;
-  width:100%;
   height: 100vh;
   background-color: #eff4fd;
 }
@@ -405,10 +404,7 @@ transition: transform 0.3s ease-in-out;
     height: 150px;
   }
 
-.education,
-.achievements {
-    width: 100vw; 
-  }
+
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -668,7 +664,6 @@ footer {
   }
 
   .education, .achievements {
-    width: 100%;
     text-align: center;
   }
 
